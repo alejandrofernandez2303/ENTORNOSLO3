@@ -42,6 +42,7 @@ public class OperacionesTest {
      * Test of sumarPar method, of class Operaciones.
      */
     
+    @Ignore
      @Test
     public void testSumarPar() {
         System.out.println("sumarPar");
@@ -53,7 +54,6 @@ public class OperacionesTest {
         assertEquals(expResult, result);
     }
     
-    @Ignore
     @Test
     public void testSumarIMPAR() {
         System.out.println("sumarImpar");
