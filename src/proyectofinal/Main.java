@@ -23,11 +23,11 @@ public class Main {
         System.out.println(resultado);
         
         //prueba mayor:
-        int resultado2 = operaciones.mayor(8,8);    
+        int resultado2 = operaciones.mayor(10,9);    
         System.out.println(resultado2);
         
         //prueba sumarVector:
-        int[] vector = {4,2,4,6};
+        int[] vector = {4,2,5,6};
         int resultado3 = operaciones.sumarVector(vector);    
         System.out.println(resultado3);
     }
